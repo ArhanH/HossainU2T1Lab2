@@ -44,6 +44,18 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    // new void method that prints information about the state you live in
+    public void stateBot(){
+     System.out.println("I actually live in New York! Sike! I am a computer and can live everywhere! HAHAHAHAHAH!");
+    }
+
+    // new non void method that converts centimeters to inches
+    public double convertCentimetersToMeters(int numCent) {
+        final double CENTIMETERS_PER_INCH = 12;
+        return CENTIMETERS_PER_INCH * numCent;
+
+    }
 }
 
 
